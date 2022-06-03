@@ -66,7 +66,7 @@ object SparkExamples {
     joinedDataFrame.drop("copyID", "copyType").show()
 
     // check the JSON file inside the dataOutput1.json folder in this repo
-    //    joinedDataFrame.write.json("/Users/s0k08m1/Downloads/dataOutput1.json")
+     //joinedDataFrame.write.json("/Users/s0k08m1/Downloads/dataOutput1.json")
 
 
 
